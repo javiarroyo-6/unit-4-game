@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class= "header">
+        <h1>Rick's Number!</h1>
+    </div>
+    <div class="instructions">
+        <ol>
+            <li>Rick has laid forth a special number that only certain Morty's can figure out</li>
+            <li>Use the Morty's below to figure out the right combination that matches Rick's Number </li>
+            <ul>
+                <li id="sadMorty">Sad Morty</li>
+                <li id="evilMorty">Evil Morty</li>
+                <li id="panicMorty">Killer Morty</li>
+                <li id="confusedMorty">Confused Morty</li>
+            <li>Each Morty has a specific number associated to it.</li>
+            <li>Your task is to figure out the value of each morty to then correctly add them to the random number</li>
+            </ul>
+        </ol>
+    </div>
+    <div class="ricksNumber">
+        <h2>The Number...
+            <span id ="randomNumber"></span>
+        </h2>
+     </div>
+    <div class="Morty's">
+        <img src="https://pa1.narvii.com/6527/babd8be6656351a759fd5e0c120de1c10d0c1e0c_128.gif"class =mortyGifs id="sad" alt="sad morty">
+        <img src="http://pa1.narvii.com/6355/6e9e634ae65f5b4037f66c79f96aa4ff9e4101e1_128.gif" class=mortyGifs id="evil" alt="evil morty">
+        <img src="https://pa1.narvii.com/6795/e1ecc68a0006ea683b5573cb9276e6f0d9eed12b_128.gif"class=mortyGifs id="panic" alt="panic morty">
+        <img src="https://pa1.narvii.com/6595/12d3c7e132161eb425835e4319eec89604daf9a8_128.gif"class=mortyGifs id="confused" alt="confused morty">
+    </div>
+    </div>
+    <div class ="container">
+        <div class ="column">
+            <p id="wins"> Wins:0</p>
+            <p id="losses">Losses:0</p>
+        </div>
+    </div>
+    <div class="userScore">
+        <h3>Your total Schmeckles:
+            <span id="finaltotal"></span>
+        </h3>
+    </div>
+
+    
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<script src="assets/javascript/game.js"></script>
+</body>
+</html>
