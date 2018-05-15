@@ -51,4 +51,18 @@ $('#sad').on ('click',function(){
     else if (userTotal > randNum) {
         loser();
     }
-})
+});
+
+$("#evil").on ('click',function() {
+    totalScore = totalScore + morty2;
+    $('finalTotal').text(userTotal);
+    if (userTotal ==randNum) {
+        winner();
+    }
+    else if (userTotal > randNum) {
+        loser();
+    }
+});
+
+
+
